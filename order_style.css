@@ -1,0 +1,367 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.fill{
+    height: 100%;
+    width: 100%
+}
+body{
+    background: #F8F8FF
+}
+
+.navbox{
+    background: #fff;
+    height: 0px;
+
+}
+.navbox .active{
+    color: #FF7A00;
+    background: #646AB726
+}
+.navbox .nv{
+    padding: 20px 20px ;
+    font-size: 12px;
+    text-align: center ;
+    transition: .5s;
+    border: .5pt solid #646AB726
+}
+.navbox .nv:hover{
+    color: #FF7A00;
+    background: #646AB726
+}
+
+
+
+.header .head1{
+    background: #fff;
+    box-shadow: 0px 0px 3px #C5C5C885
+}
+
+
+ .head2{
+    height: 40px;
+    background: #424F6A;
+    box-shadow: 0px 0px 2px #C5C5C885;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    text-align: center ;
+    display: flex;
+    align-items: center ;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #FFAA00;
+    color: #CFCFCF;
+    justify-content: center 
+}
+
+.head1 .mobileHeader{
+    height: 50px;
+    display : flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.head1 .mobileHeader .logo{
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 888
+}
+.head1 .mobileHeader .logo .lg{
+    color: #FF7A00;
+}
+.head1 .mobileHeader .logo .jy{
+    color: blue 
+}
+.head1 .mobileHeader .logo .ex{
+    color: #FF7A00;
+    font-weight: 400;
+    font-size: 10px;
+    border-top: .5pt solid #FF7A00
+}
+.head1 .mobileHeader .navbtn{
+    margin-right: 20px;
+    padding: 3px 10px;
+    background: #646AB726;
+    border-radius: 5px;
+    color: #524E4E;
+    border: .3pt solid skyblue;
+    outline: 1px solid #646AB759
+}
+.head1 .mobileHeader .navbtn:hover{
+    background: #646AB75C;
+    transition: .3s;
+}
+
+.head1 .desktopNav{
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    margiyn: 0px 10px;
+    padding: 0px 40px;
+    justify-content: space-between;
+    align-items: center ;
+
+}
+
+.head1 .desktopNav .logo{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 888
+}
+.head1 .desktopNav .logo .lg{
+    color: #FF7A00;
+}
+.head1 .desktopNav .logo .jy{
+    color: blue ;
+}
+.head1 .desktopNav .logo .ex{
+    color: #FF7A00;
+    font-weight: 400;
+    font-size: 10px;
+    border-top: .5pt solid #FF7A00
+}
+
+
+.head1 .desktopNav .navs{
+    display: flex;
+    align-items: center ;
+}
+
+.head1 .desktopNav .navs .nav{
+    font-weight: 450;
+    padding: 0px 20px;
+    color: #524E4E;
+    font-size: 14px;
+    line-height: 55px
+}
+.head1  .desktopNav .navs .active{
+    background: #646AB726;
+    color: #FF7A00
+}
+
+
+
+
+
+
+
+
+
+
+.bg_shad{
+    background: #fff;
+    box-shadow: 0px 0px 5px #C5C5C885
+}
+
+.main{
+    margin: 10px 20px;
+    height: 100%;
+    display: grid;
+    grid-gap: 20px;
+    position: fixed;
+    top: 100px;
+    overflow: scroll;
+    grid-template-columns: 300px auto
+}
+
+.main .imgPart{
+    padding: 10px 20px 200px 20px;
+    overflow: scroll;
+}
+.main .imgPart .img{
+    height: 200px;
+    background: #BBBBBB99;
+}
+
+.main .imgPart .name{
+    font-size: 20px;
+    font-weight: 450;
+    padding: 5px 0px;
+    color: #6A6A6A
+}
+
+.main .imgPart .price {
+    display: flex;
+    color: #5D5F76;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #FFAA00
+}
+.main .imgPart .price .p2{
+    margin-left: 20px;
+}
+.main .imgPart .gallery{
+    margin: 20px 0px;
+}
+.main .imgPart .gallery .tit{
+    font-weight: bolder;
+}
+.main .imgPart .gallery .imgs{
+    display: flex;
+    overflow: scroll;
+    margin-top: 5px
+}
+.main .imgPart .gallery .imgs .img{
+    height: 60px;
+    min-width: 50px;
+    max-width: 50px;
+    background: #BBBBBB99;
+    border-radius: 5px;
+    border: blue 1px solid;
+    margin: 0px 15px 0px 0px
+}
+
+.main .dits{
+    display: grid;
+    padding: 20px;
+    overflow: scroll;
+    grid-template-columns: auto 200px;
+}
+
+.main .dits .contents{
+    overflow: scroll;
+    padding: 20px 20px 200px 20px;
+
+}
+.main .dits .contents .hd{
+    font-size: 20px;
+    font-weight: 888;
+    color: #363D55;
+    background: linear-gradient(90deg,blue,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 250px;
+
+}
+.main .dits .contents .txt{
+    color: #6A6A6A;
+    font-size: 12px;
+    margin: 20px 20px 0px 0px
+}
+
+.main .dits .contents .bx{
+    display: flex;
+    margin-top: 20px;
+    /*grid: auto auto /auto auto;;*/
+}
+.main .dits .contents .bx .img{
+    height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+    background: #BBBBBB99;
+}
+.main .dits .contents .bx .txt{
+    color: #6A6A6A;
+    font-weight: 888;
+    font-size: 12px;
+    margin: 20px 20px 0px 20px
+}
+
+.main .dits .contents .btn{
+    margin: 10px 20px;
+    font-size: 12px;
+    text-align: right;;
+}
+.main .dits .contents .btn span{
+    background: #FFAA00;
+    background: #424F6A;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.main .dits .contents .more .feature{
+    padding: 10px 0px;
+}
+.main .dits .contents .more .feature .tit{
+    font-weight: bolder;
+}
+.main .dits .contents .more .feature ul{
+    margin: 10px 20px;
+    color: #6A6A6A;
+    font-size: 12px
+}
+.main .dits .contents .more .feature ul li{
+    margin: 20px 0px 0px 20px
+}
+
+
+.main .dits .form{
+    overflow: scroll
+}
+
+.main .dits .form .orderform .hd{
+    color: #FFAA00;
+    font-weight: 888;
+    font-size: 20px;
+    text-align: center ;
+    padding: 10px 0px
+}
+
+.main .dits .form .orderform{
+    margin: 0px 0px 120px 20px;
+    background: #F8F8FF;
+    background-image: url(../images/4ed185c7b83a157eaeb3914454735237.jpg);
+    box-shadow: 0px 0px 3px #ECBF0B99;
+    padding: 10px 10px 20px 10px;
+    overflow: scroll;
+
+}
+.main .dits .form .orderform .set{
+    margin-top: 10px;
+}
+.main .dits .form .orderform .set label{
+    font-weight: 888;
+    color: #FFAA00;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 0px
+}
+
+.main .dits .form .orderform .set input{
+    background: #FFFFFF5C;
+    border: #FFFFFF5C 1px solid;
+    padding: 10px 5px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px #C5C5C8B8 ;
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    outline: none
+}
+
+.main .dits .form .orderform .set input::placeholder{
+    color: #C5C5C8D6;
+}
+
+.main .dits .form .orderform .set .errMsg{
+    color: #fff;
+    margin: 10px 0px;
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 10px;
+    background: #FF4747B8;
+    font-weight: 300 ;
+    transition: .5s;
+    height: 0px;
+    width: 0px;
+    display: flex;
+    align-items: center ;
+}
+
+.main .dits .form .orderform .btn{
+    margin: 40px 0px 20px 0px;
+    text-align: right
+}
+
+.main .dits .form .orderform .btn span{
+    background: dodgerblue;
+    padding: 10px 20px;
+    font-weight: 450;
+    color: #fff;
+    border-radius: 5px
+}

@@ -1,0 +1,221 @@
+ 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #F8F8FF
+}
+
+.fill{
+    width: 100%;
+    height: 100%
+}
+
+.header {
+    overflow: hidden;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.header .nav_bar {
+    background: #fff;
+    height: 60px;
+
+}
+
+.header .heading_bg {
+    height: 400px;
+    background: #D4B14952;
+    position: relative;
+
+}
+
+.header .heading_bg .cont {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-ithems: center;
+    justify-content: center;
+    background: #0000007D;
+}
+
+.header .heading_bg .cont .txt {
+    font-size: 40px;
+    font-weight: 888;
+    margin-top: -100px;
+    color: #fff
+}
+
+.head_tit {
+    text-align: center;
+    font-weight: 555;
+    padding: 50px 20px 30px 20px;
+    font-size: 30px;
+    background: linear-gradient(90deg, blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: auto 400px;
+    grid-gap: 20px;
+}
+.container .box1,
+.container .box2{
+    background: #fff;
+    padding: 50px 20px
+}
+.container .box1 .set1 .hd{
+    font-weight: bold ;
+    color: #FF7A00;
+    font-size: 25px;
+    width: 300px;
+}
+
+.container .box1 .set1 .inhd{
+
+    font-weight: bold ;
+    color: #424F6A;
+    font-size: 25px;
+    width: 300px;
+    margin: 40px 0px 10px 0px;
+}
+
+.container .box1 .set1 .txt{
+    font-size: 12px;
+    color: #424F6A;
+    line-height: 18px;
+}
+
+
+.container .box1 .set1 .img{
+    height: 300px;
+    width: 400px;
+    margin: 20px 0px;
+    background: #C6C6C6
+}
+
+
+.container .box2 .form{
+    background: #424F6A;
+    height: 620px;
+    padding: 0px 40px
+}
+.container .box2 .form .hd{
+    font-size: 25px; 
+    font-weight: 888;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center ;
+}
+
+.container .box2 .form p{
+    color: #C6C6C6;
+    font-size: 12px;
+    text-align: center ;
+}
+
+.container .box2 .form .bar .label{
+    font-size: 14px;
+    font-weight: 888;
+    color: #C6C6C6;
+    padding: 25px 0px 10px 0px;
+}
+
+.container .box2 .form .bar input{
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.container .box2 .form .bar textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+.container .box2 .form .btn{
+    text-align: right;
+    margin: 30px 0px 0px 0px
+}
+.container .box2 .form .btn span{
+    padding: 10px 20px;
+    color: blue;
+    font-weight: bold;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 0px;
+    backgroyund: #1607A2;
+}
+
+
+
+.foot{
+    padding: 40px 20px;
+    background: #FFFFFFCC;
+    background: #fff;
+    margin-top: 100px;
+    display: grid;
+    grid: auto auto auto auto/auto auto auto auto;
+}
+
+.foot .f1,
+.foot .f2,
+.foot .f3,
+.foot .f4{
+    margin-right: 10px;
+}
+
+.foot .f1 .tit,
+.foot .f2 .tit,
+.foot .f3 .tit,
+.foot .f4 .tit{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #424F6A;
+    padding: 10px 0px;
+}
+
+.foot .f1 .val,
+.foot .f2 .val,
+.foot .f3 .val{
+    color: #424F6A;
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+
+.foot .f4 .val{
+    display: flex;
+}
+.foot .f4 .val a li{
+    height: 30px;
+    width: 30px;
+    font-style: none;
+    background: #424F6A;
+    margin-right: 10px;
+}
+
+
+
+
+
